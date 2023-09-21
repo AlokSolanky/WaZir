@@ -33,10 +33,12 @@ function printOnScreen(data) {
 
   let div_b_s = document.createElement("div");
   div_b_s.setAttribute("class", "col");
+  //   div_b_s.style.marginLeft = "70px";
   div_b_s.innerHTML = `₹ ${data.buy} / ₹ ${data.sell}`;
 
   let div_volume = document.createElement("div");
   div_volume.setAttribute("class", "col");
+  //   div_b_s.style.marginLeft = "90px";
   div_volume.innerHTML = data.volume;
 
   let div_base = document.createElement("div");
